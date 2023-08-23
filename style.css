@@ -100,16 +100,16 @@ body {
 .grid-flow-1 {
   display: grid;
   align-content: start;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 /* Summary Scores */
 .grid-flow-2 {
   display: grid;
-  gap: 0.8rem;
+  gap: var(--fs-16);
 }
 
 .grid-flow-1[data-spacing="large"] {
-  gap: 1.2rem;
+  gap: var(--fs-24);
 }
 
 .section-title {
@@ -119,11 +119,11 @@ body {
 
 @media (min-width: 600px) {
   .grid-flow-1 {
-    gap: 0.7rem;
+    gap: 0.875rem;
   }
 
   .grid-flow-1[data-spacing="large"] {
-    gap: 1.3rem;
+    gap: 1.625rem;
   }
 }
 
