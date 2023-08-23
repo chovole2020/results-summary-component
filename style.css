@@ -52,12 +52,13 @@
   --fw-xbold: 800;
 
   /* Font Size px to rem */
-  --fs-18: 0.9rem;
-  --fs-20: 1rem;
-  --fs-24: 1.2rem;
-  --fs-28: 1.4rem;
-  --fs-32: 1.6rem;
-  --fs-80: 4rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-80: 5rem;
 }
 
 *,
@@ -83,8 +84,10 @@ body {
   color: var(--clr-neutral-700);
   font-size: var(--fs-18);
   font-weight: var(--fw-bold);
-  min-height: 100vh;
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 600px) {
